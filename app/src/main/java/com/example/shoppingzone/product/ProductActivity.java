@@ -1,8 +1,10 @@
-package com.example.shoppingzone;
+package com.example.shoppingzone.product;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.shoppingzone.R;
 
 public class ProductActivity extends AppCompatActivity {
 

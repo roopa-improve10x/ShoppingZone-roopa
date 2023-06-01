@@ -6,11 +6,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.shoppingzone.Category;
-import com.example.shoppingzone.CategoryAdapter;
 import com.example.shoppingzone.OnItemActionListener;
-import com.example.shoppingzone.ProductActivity;
-import com.example.shoppingzone.R;
+import com.example.shoppingzone.product.ProductActivity;
 import com.example.shoppingzone.databinding.ActivityCategoriesActiviyBinding;
 
 import java.util.ArrayList;

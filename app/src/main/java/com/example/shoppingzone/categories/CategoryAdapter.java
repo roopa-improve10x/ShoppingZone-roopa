@@ -1,12 +1,12 @@
-package com.example.shoppingzone;
+package com.example.shoppingzone.categories;
 
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.shoppingzone.OnItemActionListener;
 import com.example.shoppingzone.databinding.CategoryItemBinding;
 
 import java.util.ArrayList;

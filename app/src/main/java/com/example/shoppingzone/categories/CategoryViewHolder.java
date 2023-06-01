@@ -1,4 +1,4 @@
-package com.example.shoppingzone;
+package com.example.shoppingzone.categories;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
