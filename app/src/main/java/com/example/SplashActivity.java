@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.shoppingzone.R;
-import com.example.shoppingzone.categories.CategoriesActiviy;
+import com.example.shoppingzone.categories.CategoriesActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
 //        getSupportActionBar().hide();
         Handler handler = new Handler();
         handler.postDelayed(() -> {
-            Intent intent = new Intent(this, CategoriesActiviy.class);
+            Intent intent = new Intent(this, CategoriesActivity.class);
             startActivity(intent);
         }, 3000);
     }
