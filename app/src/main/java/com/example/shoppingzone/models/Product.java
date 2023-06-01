@@ -4,8 +4,9 @@ public class Product {
     private Integer id;
     private String title;
     private Float price;
-    // Todo: change  the image variable name to imageUrl
     private String image;
+
+    public Rating rating;
 
     public Integer getId() {
         return id;
@@ -37,5 +38,13 @@ public class Product {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public Rating getRating() {
+        return rating;
+    }
+
+    public void setRating(Rating rating) {
+        this.rating = rating;
     }
 }

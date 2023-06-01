@@ -1,4 +1,4 @@
-package com.example.shoppingzone;
+package com.example.shoppingzone.categories;
 
 public interface OnItemActionListener {
 

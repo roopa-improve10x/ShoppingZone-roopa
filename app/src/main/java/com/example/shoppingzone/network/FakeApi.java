@@ -11,6 +11,5 @@ public class FakeApi {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         return retrofit.create(FakeApiService.class);
-
     }
 }
